@@ -5,9 +5,9 @@ function Profile() {
     const{user} = useContext(UserContext)
     if(!user)
     {
-     return <div > Please login</div>
+      return <div > Please login</div>
     }
-    return <div>Welcome {user.userName}</div>
+      return <div>Welcome {user.userName}</div>
 
   
 }

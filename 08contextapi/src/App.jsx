@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <UserContextProvider>
-        <Login/>
+         <Login/>
          <Profile/>
 
       </UserContextProvider>
